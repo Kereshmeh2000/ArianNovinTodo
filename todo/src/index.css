@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://cdn.fontcdn.ir/Font/Persian/IRANSans/iransans.css');
+body {
+    font-family: 'IRANSans', sans-serif;
+    
+}
+body.dark{
+    background-image: url('../public/img/darkBg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+body.light {
+    background-image: url('../public/img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+input:focus{
+    border: none !important;
+}
+select option:hover{
+    background: #352f5b;
+}
